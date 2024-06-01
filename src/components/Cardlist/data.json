@@ -1,0 +1,17 @@
+ [
+    {
+      "id": 1,
+      "Name": "Yasuke",
+      "logo":"./yasuke.jpg",
+      "bio": "DEV/CM",
+      "twitter":"https://x.com/basboyzamaniey"
+    },
+    {
+      "id": 2,
+      "Name": "Coins",
+      "logo": "./coins.jpg",
+      "bio": "FOUNDER",
+      "twitter":"https://x.com/Coinstantine1st"
+
+    }
+  ]

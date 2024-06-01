@@ -1,0 +1,49 @@
+
+[
+    {
+      "id": 1,
+      "Name": "Zer0",
+      "logo":"./team-zero.png",
+      "bio": "Lead Developer",
+      "twitter" : "https://x.com/WEB3Zer0?t=TrM9P_0n9xjzDkBuR9NHJA&s=09"
+    },
+    {
+      "id": 2,
+      "Name": "godshiba",
+      "logo":"./shiba.jpg",
+      "bio": "darkosNFT",
+      "twitter" : "https://x.com/godshiba_?t=dhYsazAoBH33KV8H9wZXYQ&s=09"
+    },
+    {
+      "id": 3,
+      "Name": "Shamrock",
+      "logo":"./shamrock.jpg",
+      "bio": "Founder nruhbers",
+      "twitter" : "https://x.com/shamrock_gif?t=kB4qPo1HAko-8WPwzc6ong&s=09"
+   
+    },
+    {
+      "id": 4,
+      "Name": "Joe",
+      "logo":"./joe.jpg",
+      "bio": "Growth Wizard",
+      "twitter" : "https://x.com/bruhtherjoe?t=uDnu7Glu9-PLA9IEkA0lWQ&s=09"
+    },
+   
+    {
+      "id": 5,
+      "Name": "chilii",
+      "logo":"./team-chili.png",
+      "bio": "Asia CM",
+      "twitter" : "https://x.com/cryptochilii"
+    },
+   
+    {
+      "id": 6,
+      "Name": "Link",
+      "logo":"./link.jpg",
+      "bio": "Creative Director",
+      "twitter" : "https://x.com/thelegendofbruh"
+    }
+   
+  ]
