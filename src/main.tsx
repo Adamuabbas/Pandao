@@ -9,7 +9,7 @@ import HomePage from "@/App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter >
           <HomePage />
     </BrowserRouter>
 

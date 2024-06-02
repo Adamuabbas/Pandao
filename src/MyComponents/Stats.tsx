@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios, { AxiosResponse } from "axios";
+import { log } from "console";
 
 interface CollectionInfo {
   slug: string;
@@ -21,6 +22,7 @@ function Stats() {
   const [data, setData] = useState<CollectionInfo | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+const API = import.meta.env.VITE_APP_API_KEY;
 
   useEffect(() => {
     const runReq = async () => {
@@ -64,7 +66,7 @@ function Stats() {
             variables
           },
           headers: {
-            // "x-api-key": "RpePNC5.04ad582f1fd6b43eb15f0084c0866a4e",
+             "x-api-key": `${API}`,
             "x-api-user": "Chad Panda"
           }
         });
@@ -86,6 +88,7 @@ function Stats() {
   }, []);
 
   console.log("My data:", data);
+  // console.log(process.env.REACT_APP_API_KEY)
 
   return (
     <div className="flex">
