@@ -70,7 +70,7 @@ function NavBar() {
                 className="bg-green-500 bg-opacity-10 backdrop-blur-lg text-white absolute top-16 flex flex-col items-center rounded-lg p-2 w-72 z-50"
               >
                <a onClick={()=> window.open("https://bruh.xyz/airdrop", "_blank")}> <div className="transition-all hover:bg-green-800 py-1 px-3 my-1 flex items-center gap-2" ><Gem size={15} /> AIRDROP</div></a>
-                <Link to="/Honoray"> <div className="transition-all hover:bg-green-800 py-1 px-3 my-1 flex items-center gap-2"><Award size={15}/>HONORARY</div></Link>
+                <Link to="/Honor"> <div className="transition-all hover:bg-green-800 py-1 px-3 my-1 flex items-center gap-2"><Award size={15}/>HONORARY</div></Link>
                 <div className="transition-all hover:bg-green-800 py-1 px-3 my-1 flex items-center gap-2"><LockKeyhole size={15}/>STAKING <sup>NA</sup></div>
                 <div className="transition-all hover:bg-green-800 py-1 px-3 my-1 flex items-center gap-2"><SearchX size={15} /> RARITY <sup>NA</sup></div>
                

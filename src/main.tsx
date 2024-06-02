@@ -2,9 +2,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Provider } from "react-redux";
 import { store } from "@/MyComponents/State/Store.ts";
-import {
-  BrowserRouter} from "react-router-dom";
-import Honoray from "./components/HonorList/Honoray.tsx";
+import {BrowserRouter} from "react-router-dom";
 import HomePage from "@/App.tsx";
 
 
